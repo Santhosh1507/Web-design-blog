@@ -6,8 +6,8 @@ const Heading = () => {
         <div>
             <div className="bg-gradient-to-r from-cyan-500 to-blue-500">
                 <div className="flex flex-row items-center justify-between p-10">
-                    <div className="mt-50 ml-20 w-3/5">
-                        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-800 md:text-5xl lg:text-6xl dark:text-white uppercase">Web development</h1>
+                    <div className="md:mt-50 md:ml-20 md:w-3/5 mt-20 w-4/4 ">
+                        <h1 className="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-800  lg:text-6xl dark:text-white uppercase">Web development</h1>
                         <p className="mb-6 text-lg font-medium text-gray-700 lg:text-xl dark:text-gray-400">I'm a full-stack developer wielding the Web-develop like a seasoned architect. I enjoy building sites & apps. My focus is React (Node.js).</p>
                         <a href="#" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                             Contact
@@ -16,8 +16,8 @@ const Heading = () => {
                             </svg>
                         </a>
                     </div>
-                    <div className="mt-30 mr-20 ">
-                        <img src={Image} alt="image" className="object-cover" />
+                    <div className="md:mt-30 md:mr-20 mr-10">
+                        <img src={Image} alt="image" className="object-cover invisible md:visible" />
                     </div>
                 </div>
 
