@@ -5,14 +5,14 @@ const Pricing = () => {
         <div className="border-t-2 border-t-slate-200">
             <h2 className="mb-4 text-2xl font-extrabold leading-none tracking-normal text-gray-800 text-center lg:text-4xl p-4 mt-5 dark:text-white"><span className="border-b-4 px-10 border-b-stone-600">Pricing</span></h2>
             <div className="flex flex-row flex-wrap justify-center  md:my-5">
-                <div className="w-full max-w-sm m-10 p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+                <div className="w-full max-w-sm m-10 p-4 bg-white border border-gray-200 rounded-lg shadow-2xl sm:p-8 dark:bg-gray-800 dark:border-gray-700 transform hover:scale-110 duration-200">
                     <h5 className="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">Basic plan</h5>
                     <div className="flex items-baseline text-gray-900 dark:text-white">
                         <span className="text-3xl font-semibold">$</span>
                         <span className="text-5xl font-medium tracking-tight">79.00</span>
                         <span className="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
                     </div>
-                    <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-200 mt-5 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Buy Now</button>
+                    <button type="button" className="text-white bg-orange-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-200 mt-5 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Buy Now</button>
                     <div className="border-b-2 mx-10 border-b-slate-500 mt-5"></div>
                     <ul role="list" className="space-y-5 my-7">
                         <li className="flex items-center">
@@ -53,14 +53,14 @@ const Pricing = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="w-full max-w-sm m-10 p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+                <div className="w-full max-w-sm m-10 p-4 bg-white border border-gray-200 rounded-lg shadow-2xl sm:p-8 dark:bg-gray-800 dark:border-gray-700 transform hover:scale-110 duration-200">
                     <h5 className="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">Standard plan</h5>
                     <div className="flex items-baseline text-gray-900 dark:text-white">
                         <span className="text-3xl font-semibold">$</span>
                         <span className="text-5xl font-medium tracking-tight">199.00</span>
                         <span className="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
                     </div>
-                    <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-200 mt-5 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Buy Now</button>
+                    <button type="button" className="text-white bg-orange-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-200 mt-5 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Buy Now</button>
                     <div className="border-b-2 mx-10 border-b-slate-500 mt-5"></div>
                     <ul role="list" className="space-y-5 my-7">
                         <li className="flex items-center">
@@ -119,14 +119,14 @@ const Pricing = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="w-full max-w-sm m-10 p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+                <div className="w-full max-w-sm m-10 p-4 bg-white border border-gray-200 rounded-lg shadow-2xl sm:p-8 dark:bg-gray-800 dark:border-gray-700 transform hover:scale-110 duration-200">
                     <h5 className="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">Premium plan</h5>
                     <div className="flex items-baseline text-gray-900 dark:text-white">
                         <span className="text-3xl font-semibold">$</span>
                         <span className="text-5xl font-medium tracking-tight">299.00</span>
                         <span className="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
                     </div>
-                    <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-200 mt-5 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Buy Now</button>
+                    <button type="button" className="text-white bg-orange-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-200 mt-5 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Buy Now</button>
                     <div className="border-b-2 mx-10 border-b-slate-500 mt-5"></div>
                     <ul role="list" className="space-y-5 my-7">
                         <li className="flex items-center">
