@@ -5,7 +5,7 @@ const Titlecard = () => {
         <div>
             <h2 className="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-800 text-center lg:text-4xl p-4 mt-5 dark:text-white"><span className="border-b-4 px-10 border-b-yellow-400">Title</span></h2>
             <div className="flex flex-row flex-wrap justify-center  md:my-5">
-                <div className="max-w-sm p-6 m-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className="max-w-sm p-6 m-5 bg-white border border-gray-200 rounded-lg shadow-2xl dark:bg-gray-800 dark:border-gray-700 transform hover:scale-110 duration-200">
                     <a href="#">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">web development in 2024</h5>
                     </a>
@@ -17,7 +17,7 @@ const Titlecard = () => {
                         </svg>
                     </a>
                 </div>
-                <div className="max-w-sm p-6 m-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className="max-w-sm p-6 m-5 bg-white border border-gray-200 rounded-lg shadow-2xl dark:bg-gray-800 dark:border-gray-700 transform hover:scale-110 duration-200">
                     <a href="#">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">frontend develope in 2024</h5>
                     </a>
@@ -30,7 +30,7 @@ const Titlecard = () => {
                     </a>
                 </div>
         
-                <div className="max-w-sm p-6 m-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className="max-w-sm p-6 m-5 bg-white border border-gray-200 rounded-lg shadow-2xl dark:bg-gray-800 dark:border-gray-700 transform hover:scale-110 duration-200">
                     <a href="#">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">backend developer in 2024</h5>
                     </a>
