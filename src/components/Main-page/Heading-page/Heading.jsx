@@ -17,7 +17,7 @@ const Heading = () => {
                         </a>
                     </div>
                     <div className="md:mt-30 md:mr-20 mr-10 hidden md:block">
-                        <img src={Image} alt="image" className="object-cover" />
+                        <img src={Image} alt="image" className="object-cover transform hover:scale-125 duration-150" />
                     </div>
                 </div>
 
